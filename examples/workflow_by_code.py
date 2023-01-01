@@ -1,7 +1,7 @@
 #  Copyright (c) Microsoft Corporation.
 #  Licensed under the MIT License.
 """
-Qlib provides two kinds of interfaces. 
+Qlib provides two kinds of interfaces.
 (1) Users could define the Quant research workflow by a simple configuration.
 (2) Qlib is designed in a modularized way and supports creating research workflow by code just like building blocks.
 
@@ -16,8 +16,9 @@ from qlib.tests.data import GetData
 from qlib.tests.config import CSI300_BENCH, CSI300_GBDT_TASK
 
 
-if __name__ == "__main__":
+#%%
 
+if __name__ == "__main__":
     # use default data
     provider_uri = "~/.qlib/qlib_data/cn_data"  # target_dir
     GetData().qlib_data(target_dir=provider_uri, region=REG_CN, exists_skip=True)

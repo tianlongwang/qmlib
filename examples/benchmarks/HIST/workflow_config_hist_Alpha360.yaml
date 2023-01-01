@@ -58,10 +58,10 @@ task:
             early_stop: 20
             metric: ic
             loss: mse
-            base_model: LSTM
-            model_path: "benchmarks/LSTM/model_lstm_csi300.pkl"
-            stock2concept: "benchmarks/HIST/qlib_csi300_stock2concept.npy"
-            stock_index: "benchmarks/HIST/qlib_csi300_stock_index.npy"
+            #base_model: LSTM
+            #model_path: "benchmarks/LSTM/model_lstm_csi300.pkl"
+            #stock2concept: "benchmarks/HIST/qlib_csi300_stock2concept.npy"
+            #stock_index: "benchmarks/HIST/qlib_csi300_stock_index.npy"
             GPU: 0
     dataset:
         class: DatasetH
